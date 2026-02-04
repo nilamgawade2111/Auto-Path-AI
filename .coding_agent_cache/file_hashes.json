@@ -1,0 +1,15 @@
+{
+  "index.html": "a3fbec2184caeb0cc5d404ff52f1a5d4",
+  "package.json": "2b36f0028100ce98996608a52f73e561",
+  "postcss.config.js": "8640f9b2e6475cc3f5b1ff4548925765",
+  "tailwind.config.js": "7f9a44968e1bd3b0cca56e6b5446bc87",
+  "vite.config.js": "e7de56248c9dd438dc2ed62b5c2c9a54",
+  "src\\App.jsx": "1bab47fefd84426bcd33b77567a10ac1",
+  "src\\index.css": "c486d72356568f8eeb6ba501b8f19a17",
+  "src\\main.jsx": "1a42cec8a091f431110b01c9b2c624bf",
+  ".coding_agent_cache\\analysis_cache.json": "99914b932bd37a50b983c5e7c90ae93b",
+  ".coding_agent_cache\\dependencies.json": "f5853ffd43b653c189f39b3daf006081",
+  ".coding_agent_cache\\file_hashes.json": "b3b62bc4398be75413d2b0d90b78e066",
+  ".coding_agent_cache\\ticket_completions.json": "61ab958ffa34c3cdec6f74d3d745be1a",
+  "src\\index.js": "1a42cec8a091f431110b01c9b2c624bf"
+}

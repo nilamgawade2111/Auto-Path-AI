@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: car
+  namespace: default
+  labels:
+    app: car
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: car
+  template:
+    metadata:
+      labels:
+        app: car
+    spec:
+      containers:
+      - name: car
+        image: car:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        env:
+        - name: SERVICE_NAME
+          value: "car"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10

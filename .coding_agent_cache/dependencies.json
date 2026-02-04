@@ -1,0 +1,17 @@
+{
+  "forward": {
+    "postcss.config.js": [],
+    "tailwind.config.js": [],
+    "vite.config.js": [],
+    "src\\App.jsx": [],
+    "src\\main.jsx": [
+      "src\\App.jsx"
+    ]
+  },
+  "reverse": {
+    "src\\App.jsx": [
+      "src\\main.jsx"
+    ]
+  },
+  "cached_at": "C:\\autopath project\\autocar-framework"
+}
