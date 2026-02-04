@@ -1,22 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import HomePage from './pages/HomePage';
-import CarsPage from './pages/CarsPage';
-import PricingPage from './pages/PricingPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RegistrationPage from './components/RegistrationPage';
+import APIHandler from './components/APIHandler';
+import DataProcessor from './components/DataProcessor';
 
 function App() {
   return (
     <Router>
-      <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/cars" element={<CarsPage />} />
-        <Route path="/pricing" element={<PricingPage />} />
-        <Route path="/locations" element={<div>Locations Page</div>} />
-        <Route path="/contact" element={<div>Contact Page</div>} />
-        <Route path="/sell" element={<div>Sell Car Page</div>} />
-        <Route path="/about" element={<div>About Us Page</div>} />
+        <Route path="/register" element={<RegistrationPage />} />
+        <Route path="/api" element={<APIHandler endpoint="/api/data" method="GET" />} />
+        <Route path="/process" element={<DataProcessor data={[]} />} />
+        {/* Add other routes here */}
       </Routes>
     </Router>
   );

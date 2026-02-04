@@ -1,34 +1,59 @@
-# Car Service
+# React + Vite + Tailwind CSS Template
 
-React application for the Car service.
+Modern React starter template with Vite and Tailwind CSS for fast development.
 
-## Development
+## Quick Start
 
-### Using Tilt (Recommended)
-
-```bash
-tilt up
-```
-
-Access at: http://car.localhost
-
-### Local Development
-
+1. Install dependencies:
 ```bash
 npm install
+```
+
+2. Run development server:
+```bash
 npm run dev
 ```
 
-## Build
-
+3. Build for production:
 ```bash
 npm run build
 ```
 
+4. Preview production build:
+```bash
+npm run serve
+```
+
+## Features
+
+- ⚡ Vite - Lightning fast HMR
+- ⚛️ React 18
+- 🎨 Tailwind CSS 3
+- 📦 Production-ready build
+- 🔧 PostCSS & Autoprefixer
+
+## Project Structure
+
+```
+├── src/
+│   ├── App.jsx          # Main component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
+├── public/              # Static assets
+├── index.html           # HTML template
+└── vite.config.js       # Vite configuration
+```
+
+## Customization
+
+- Update `car` placeholder in files with your project name
+- Modify `tailwind.config.js` for custom theme
+- Add components in `src/components/`
+
 ## Tech Stack
 
-- React 18.2
-- Vite 5.0
-- Tailwind CSS 3.4
-- React Router DOM 7.10
-- Styled Components 6.1
+- React 18.2.0
+- Vite 5.0.0
+- Tailwind CSS 3.4.0
+
+

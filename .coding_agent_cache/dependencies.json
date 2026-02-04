@@ -1,17 +1,560 @@
 {
   "forward": {
     "postcss.config.js": [],
-    "tailwind.config.js": [],
     "vite.config.js": [],
-    "src\\App.jsx": [],
-    "src\\main.jsx": [
-      "src\\App.jsx"
-    ]
+    "tailwind.config.js": [],
+    "src/main.jsx": [
+      "src/App.jsx"
+    ],
+    "src/App.jsx": [
+      "src/components/DataProcessor.jsx",
+      "src/components/RegistrationPage.jsx",
+      "src/components/APIHandler.jsx"
+    ],
+    "src/index.js": [
+      "src/App.jsx"
+    ],
+    "src/pages/MarketingDashboard.jsx": [],
+    "src/pages/SignupPage.jsx": [],
+    "src/pages/Blogs.jsx": [],
+    "src/pages/LoginPage.jsx": [],
+    "src/pages/AboutUs.jsx": [],
+    "src/components/Services.jsx": [],
+    "src/components/DataProcessor.jsx": [],
+    "src/components/OfferDetailsPage.jsx": [],
+    "src/components/VehicleCard.jsx": [],
+    "src/components/Header.jsx": [],
+    "src/components/ManagerDashboard.jsx": [],
+    "src/components/APIHandler.jsx": [],
+    "src/components/RegistrationPage.jsx": [],
+    "src/components/BookingSummary.jsx": [],
+    "src/components/Offers.jsx": [],
+    "src/components/FeatureBlock.jsx": [],
+    "src/components/CustomerReviews.jsx": [],
+    "src/components/Locations.jsx": [],
+    "src/components/Benefits.jsx": [],
+    "src/components/Hero.jsx": [],
+    "src/components/ServiceDetailsPage.jsx": [],
+    "src/components/Validator.jsx": [],
+    "src/components/NewPage.jsx": [],
+    "src/components/TestPage.jsx": [],
+    "src/components/Contact.jsx": [],
+    ".backups/backup_20260102_164534/postcss.config.js": [],
+    ".backups/backup_20260102_164534/vite.config.js": [],
+    ".backups/backup_20260102_164534/tailwind.config.js": [],
+    ".backups/backup_20260102_164534/src/main.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/App.jsx": [
+      ".backups/backup_20260102_164534/src/components/Hero.jsx",
+      ".backups/backup_20260102_164534/src/components/Header.jsx",
+      ".backups/backup_20260102_164534/src/components/Offers.jsx",
+      ".backups/backup_20260102_164534/src/components/TestPage.jsx",
+      ".backups/backup_20260102_164534/src/components/CustomerReviews.jsx",
+      ".backups/backup_20260102_164534/src/components/VehicleCard.jsx",
+      ".backups/backup_20260102_164534/src/components/Locations.jsx",
+      ".backups/backup_20260102_164534/src/components/Contact.jsx",
+      ".backups/backup_20260102_164534/src/pages/Blogs.jsx",
+      ".backups/backup_20260102_164534/src/components/Benefits.jsx",
+      ".backups/backup_20260102_164534/src/components/BookingSummary.jsx",
+      ".backups/backup_20260102_164534/src/pages/AboutUs.jsx",
+      ".backups/backup_20260102_164534/src/components/Services.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/index.js": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/pages/Blogs.jsx": [],
+    ".backups/backup_20260102_164534/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Services.jsx": [],
+    ".backups/backup_20260102_164534/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Header.jsx": [],
+    ".backups/backup_20260102_164534/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Offers.jsx": [],
+    ".backups/backup_20260102_164534/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Locations.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Benefits.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Hero.jsx": [],
+    ".backups/backup_20260102_164534/src/components/TestPage.jsx": [],
+    ".backups/backup_20260102_164534/src/components/Contact.jsx": [],
+    ".backups/backup_20260102_155353/postcss.config.js": [],
+    ".backups/backup_20260102_155353/vite.config.js": [],
+    ".backups/backup_20260102_155353/tailwind.config.js": [],
+    ".backups/backup_20260102_155353/src/main.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/App.jsx": [
+      ".backups/backup_20260102_155353/src/components/Hero.jsx",
+      ".backups/backup_20260102_155353/src/components/VehicleCard.jsx",
+      ".backups/backup_20260102_155353/src/pages/AboutUs.jsx",
+      ".backups/backup_20260102_155353/src/components/Services.jsx",
+      ".backups/backup_20260102_155353/src/components/Benefits.jsx",
+      ".backups/backup_20260102_155353/src/components/CustomerReviews.jsx",
+      ".backups/backup_20260102_155353/src/components/BookingSummary.jsx",
+      ".backups/backup_20260102_155353/src/components/TestPage.jsx",
+      ".backups/backup_20260102_155353/src/components/Contact.jsx",
+      ".backups/backup_20260102_155353/src/components/Header.jsx",
+      ".backups/backup_20260102_155353/src/components/Locations.jsx",
+      ".backups/backup_20260102_155353/src/components/Offers.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/index.js": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Services.jsx": [],
+    ".backups/backup_20260102_155353/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Header.jsx": [],
+    ".backups/backup_20260102_155353/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Offers.jsx": [],
+    ".backups/backup_20260102_155353/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Locations.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Benefits.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Hero.jsx": [],
+    ".backups/backup_20260102_155353/src/components/TestPage.jsx": [],
+    ".backups/backup_20260102_155353/src/components/Contact.jsx": [],
+    ".backups/backup_20260106_045347/postcss.config.js": [],
+    ".backups/backup_20260106_045347/vite.config.js": [],
+    ".backups/backup_20260106_045347/tailwind.config.js": [],
+    ".backups/backup_20260106_045347/src/main.jsx": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/App.jsx": [
+      ".backups/backup_20260106_045347/src/pages/AboutUs.jsx",
+      ".backups/backup_20260106_045347/src/components/Header.jsx",
+      ".backups/backup_20260106_045347/src/pages/LoginPage.jsx",
+      ".backups/backup_20260106_045347/src/pages/SignupPage.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/index.js": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/pages/SignupPage.jsx": [],
+    ".backups/backup_20260106_045347/src/pages/Blogs.jsx": [],
+    ".backups/backup_20260106_045347/src/pages/LoginPage.jsx": [],
+    ".backups/backup_20260106_045347/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Services.jsx": [],
+    ".backups/backup_20260106_045347/src/components/OfferDetailsPage.jsx": [],
+    ".backups/backup_20260106_045347/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Header.jsx": [],
+    ".backups/backup_20260106_045347/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Offers.jsx": [],
+    ".backups/backup_20260106_045347/src/components/FeatureBlock.jsx": [],
+    ".backups/backup_20260106_045347/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Locations.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Benefits.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Hero.jsx": [],
+    ".backups/backup_20260106_045347/src/components/ServiceDetailsPage.jsx": [],
+    ".backups/backup_20260106_045347/src/components/NewPage.jsx": [],
+    ".backups/backup_20260106_045347/src/components/TestPage.jsx": [],
+    ".backups/backup_20260106_045347/src/components/Contact.jsx": [],
+    ".backups/backup_20260102_161300/postcss.config.js": [],
+    ".backups/backup_20260102_161300/vite.config.js": [],
+    ".backups/backup_20260102_161300/tailwind.config.js": [],
+    ".backups/backup_20260102_161300/src/main.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/App.jsx": [
+      ".backups/backup_20260102_161300/src/components/Header.jsx",
+      ".backups/backup_20260102_161300/src/components/Offers.jsx",
+      ".backups/backup_20260102_161300/src/components/VehicleCard.jsx",
+      ".backups/backup_20260102_161300/src/components/Services.jsx",
+      ".backups/backup_20260102_161300/src/components/Benefits.jsx",
+      ".backups/backup_20260102_161300/src/components/BookingSummary.jsx",
+      ".backups/backup_20260102_161300/src/components/CustomerReviews.jsx",
+      ".backups/backup_20260102_161300/src/components/Contact.jsx",
+      ".backups/backup_20260102_161300/src/components/Locations.jsx",
+      ".backups/backup_20260102_161300/src/components/TestPage.jsx",
+      ".backups/backup_20260102_161300/src/components/Hero.jsx",
+      ".backups/backup_20260102_161300/src/pages/AboutUs.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/index.js": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Services.jsx": [],
+    ".backups/backup_20260102_161300/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Header.jsx": [],
+    ".backups/backup_20260102_161300/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Offers.jsx": [],
+    ".backups/backup_20260102_161300/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Locations.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Benefits.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Hero.jsx": [],
+    ".backups/backup_20260102_161300/src/components/TestPage.jsx": [],
+    ".backups/backup_20260102_161300/src/components/Contact.jsx": [],
+    ".backups/backup_20260102_155114/postcss.config.js": [],
+    ".backups/backup_20260102_155114/vite.config.js": [],
+    ".backups/backup_20260102_155114/tailwind.config.js": [],
+    ".backups/backup_20260102_155114/src/main.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/App.jsx": [
+      ".backups/backup_20260102_155114/src/components/VehicleCard.jsx",
+      ".backups/backup_20260102_155114/src/components/BookingSummary.jsx",
+      ".backups/backup_20260102_155114/src/pages/AboutUs.jsx",
+      ".backups/backup_20260102_155114/src/components/Benefits.jsx",
+      ".backups/backup_20260102_155114/src/components/Contact.jsx",
+      ".backups/backup_20260102_155114/src/components/CustomerReviews.jsx",
+      ".backups/backup_20260102_155114/src/components/TestPage.jsx",
+      ".backups/backup_20260102_155114/src/components/Offers.jsx",
+      ".backups/backup_20260102_155114/src/components/Locations.jsx",
+      ".backups/backup_20260102_155114/src/components/Header.jsx",
+      ".backups/backup_20260102_155114/src/components/Hero.jsx",
+      ".backups/backup_20260102_155114/src/components/Services.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/index.js": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Services.jsx": [],
+    ".backups/backup_20260102_155114/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Header.jsx": [],
+    ".backups/backup_20260102_155114/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Offers.jsx": [],
+    ".backups/backup_20260102_155114/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Locations.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Benefits.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Hero.jsx": [],
+    ".backups/backup_20260102_155114/src/components/TestPage.jsx": [],
+    ".backups/backup_20260102_155114/src/components/Contact.jsx": [],
+    ".backups/backup_20260106_050419/postcss.config.js": [],
+    ".backups/backup_20260106_050419/vite.config.js": [],
+    ".backups/backup_20260106_050419/tailwind.config.js": [],
+    ".backups/backup_20260106_050419/src/main.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/App.jsx": [
+      ".backups/backup_20260106_050419/src/components/Header.jsx",
+      ".backups/backup_20260106_050419/src/components/ManagerDashboard.jsx",
+      ".backups/backup_20260106_050419/src/pages/LoginPage.jsx",
+      ".backups/backup_20260106_050419/src/pages/SignupPage.jsx",
+      ".backups/backup_20260106_050419/src/pages/AboutUs.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/index.js": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/pages/MarketingDashboard.jsx": [],
+    ".backups/backup_20260106_050419/src/pages/SignupPage.jsx": [],
+    ".backups/backup_20260106_050419/src/pages/Blogs.jsx": [],
+    ".backups/backup_20260106_050419/src/pages/LoginPage.jsx": [],
+    ".backups/backup_20260106_050419/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Services.jsx": [],
+    ".backups/backup_20260106_050419/src/components/OfferDetailsPage.jsx": [],
+    ".backups/backup_20260106_050419/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Header.jsx": [],
+    ".backups/backup_20260106_050419/src/components/ManagerDashboard.jsx": [],
+    ".backups/backup_20260106_050419/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Offers.jsx": [],
+    ".backups/backup_20260106_050419/src/components/FeatureBlock.jsx": [],
+    ".backups/backup_20260106_050419/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Locations.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Benefits.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Hero.jsx": [],
+    ".backups/backup_20260106_050419/src/components/ServiceDetailsPage.jsx": [],
+    ".backups/backup_20260106_050419/src/components/NewPage.jsx": [],
+    ".backups/backup_20260106_050419/src/components/TestPage.jsx": [],
+    ".backups/backup_20260106_050419/src/components/Contact.jsx": [],
+    ".backups/backup_20260102_180437/postcss.config.js": [],
+    ".backups/backup_20260102_180437/vite.config.js": [],
+    ".backups/backup_20260102_180437/tailwind.config.js": [],
+    ".backups/backup_20260102_180437/src/main.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/App.jsx": [
+      ".backups/backup_20260102_180437/src/components/Offers.jsx",
+      ".backups/backup_20260102_180437/src/components/Contact.jsx",
+      ".backups/backup_20260102_180437/src/pages/AboutUs.jsx",
+      ".backups/backup_20260102_180437/src/pages/Blogs.jsx",
+      ".backups/backup_20260102_180437/src/components/Benefits.jsx",
+      ".backups/backup_20260102_180437/src/components/Header.jsx",
+      ".backups/backup_20260102_180437/src/components/BookingSummary.jsx",
+      ".backups/backup_20260102_180437/src/components/Locations.jsx",
+      ".backups/backup_20260102_180437/src/components/NewPage.jsx",
+      ".backups/backup_20260102_180437/src/components/Services.jsx",
+      ".backups/backup_20260102_180437/src/components/TestPage.jsx",
+      ".backups/backup_20260102_180437/src/components/ServiceDetailsPage.jsx",
+      ".backups/backup_20260102_180437/src/components/Hero.jsx",
+      ".backups/backup_20260102_180437/src/components/CustomerReviews.jsx",
+      ".backups/backup_20260102_180437/src/components/VehicleCard.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/index.js": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/pages/Blogs.jsx": [],
+    ".backups/backup_20260102_180437/src/pages/AboutUs.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Services.jsx": [],
+    ".backups/backup_20260102_180437/src/components/VehicleCard.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Header.jsx": [],
+    ".backups/backup_20260102_180437/src/components/BookingSummary.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Offers.jsx": [],
+    ".backups/backup_20260102_180437/src/components/CustomerReviews.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Locations.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Benefits.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Hero.jsx": [],
+    ".backups/backup_20260102_180437/src/components/ServiceDetailsPage.jsx": [],
+    ".backups/backup_20260102_180437/src/components/NewPage.jsx": [],
+    ".backups/backup_20260102_180437/src/components/TestPage.jsx": [],
+    ".backups/backup_20260102_180437/src/components/Contact.jsx": []
   },
   "reverse": {
-    "src\\App.jsx": [
-      "src\\main.jsx"
+    "src/App.jsx": [
+      "src/index.js",
+      "src/main.jsx"
+    ],
+    "src/components/DataProcessor.jsx": [
+      "src/App.jsx"
+    ],
+    "src/components/RegistrationPage.jsx": [
+      "src/App.jsx"
+    ],
+    "src/components/APIHandler.jsx": [
+      "src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/App.jsx": [
+      ".backups/backup_20260102_164534/src/index.js",
+      ".backups/backup_20260102_164534/src/main.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Hero.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Header.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Offers.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/TestPage.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/CustomerReviews.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/VehicleCard.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Locations.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Contact.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/pages/Blogs.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Benefits.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/BookingSummary.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_164534/src/components/Services.jsx": [
+      ".backups/backup_20260102_164534/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/App.jsx": [
+      ".backups/backup_20260102_155353/src/main.jsx",
+      ".backups/backup_20260102_155353/src/index.js"
+    ],
+    ".backups/backup_20260102_155353/src/components/Hero.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/VehicleCard.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Services.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Benefits.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/CustomerReviews.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/BookingSummary.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/TestPage.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Contact.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Header.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Locations.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155353/src/components/Offers.jsx": [
+      ".backups/backup_20260102_155353/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/App.jsx": [
+      ".backups/backup_20260106_045347/src/index.js",
+      ".backups/backup_20260106_045347/src/main.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/components/Header.jsx": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/pages/LoginPage.jsx": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260106_045347/src/pages/SignupPage.jsx": [
+      ".backups/backup_20260106_045347/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/App.jsx": [
+      ".backups/backup_20260102_161300/src/index.js",
+      ".backups/backup_20260102_161300/src/main.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Header.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Offers.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/VehicleCard.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Services.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Benefits.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/BookingSummary.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/CustomerReviews.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Contact.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Locations.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/TestPage.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/components/Hero.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_161300/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260102_161300/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/App.jsx": [
+      ".backups/backup_20260102_155114/src/index.js",
+      ".backups/backup_20260102_155114/src/main.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/VehicleCard.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/BookingSummary.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Benefits.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Contact.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/CustomerReviews.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/TestPage.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Offers.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Locations.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Header.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Hero.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260102_155114/src/components/Services.jsx": [
+      ".backups/backup_20260102_155114/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/App.jsx": [
+      ".backups/backup_20260106_050419/src/main.jsx",
+      ".backups/backup_20260106_050419/src/index.js"
+    ],
+    ".backups/backup_20260106_050419/src/components/Header.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/components/ManagerDashboard.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/pages/LoginPage.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/pages/SignupPage.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260106_050419/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260106_050419/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/App.jsx": [
+      ".backups/backup_20260102_180437/src/index.js",
+      ".backups/backup_20260102_180437/src/main.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Offers.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Contact.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/pages/AboutUs.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/pages/Blogs.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Benefits.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Header.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/BookingSummary.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Locations.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/NewPage.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Services.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/TestPage.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/ServiceDetailsPage.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/Hero.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/CustomerReviews.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
+    ],
+    ".backups/backup_20260102_180437/src/components/VehicleCard.jsx": [
+      ".backups/backup_20260102_180437/src/App.jsx"
     ]
   },
-  "cached_at": "C:\\autopath project\\autocar-framework"
+  "cached_at": "/app"
 }

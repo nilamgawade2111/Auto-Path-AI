@@ -6,10 +6,9 @@ docker_build(
     '.',
     live_update=[
         sync('./src', '/app/src'),
-        sync('./index.html', '/app/index.html'),
-        sync('./vite.config.js', '/app/vite.config.js'),
-        sync('./tailwind.config.js', '/app/tailwind.config.js'),
-        sync('./postcss.config.js', '/app/postcss.config.js'),
+        sync('./public', '/app/public'),
+        sync('./package.json', '/app/package.json'),
+        run('touch /tmp/reload', trigger=['./src', './public', './package.json'])
     ],
 )
 
@@ -24,3 +23,4 @@ k8s_resource(
     # Removed port_forwards - access via Traefik instead
     auto_init=True,
 )
+
