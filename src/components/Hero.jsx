@@ -10,7 +10,7 @@ const Hero = () => {
         <input type="text" placeholder="Pickup Location" className="p-2 rounded placeholder-black" />
         <input type="date" className="p-2 rounded mx-2 placeholder-black" />
         <input type="date" className="p-2 rounded mx-2 placeholder-black" />
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Search</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Search Now</button>
       </div>
     </section>
   );
