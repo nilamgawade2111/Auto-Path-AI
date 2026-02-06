@@ -10,7 +10,7 @@ const offersData = [
 
 const Offers = () => {
   return (
-    <div className="bg-gray-300 p-4 text-center">
+    <div className="bg-gray-500 p-4 text-center">
       <h2 className="text-2xl font-bold">Current Offers</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {offersData.map((offer) => (
