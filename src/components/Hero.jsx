@@ -2,10 +2,17 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-green-500 text-white p-8 text-center rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:bg-opacity-90">
-      <h1 className="text-4xl font-bold mb-4">Welcome to the App</h1>
-      <p className="text-lg">Experience the best car rental deals and services with us!</p>
-    </div>
+    <section className="relative bg-cover bg-center h-[60vh]" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&auto=format)' }}>
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="relative z-10 text-white text-center p-5">
+        <h1 className="text-5xl font-bold mb-2">New My Car App</h1>
+        <p className="text-xl mb-4">Rent a car that fits your lifestyle.</p>
+        <input type="text" placeholder="Pickup Location" className="p-2 rounded placeholder-black" />
+        <input type="date" className="p-2 rounded mx-2 placeholder-black" />
+        <input type="date" className="p-2 rounded mx-2 placeholder-black" />
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Search</button>
+      </div>
+    </section>
   );
 };
 
