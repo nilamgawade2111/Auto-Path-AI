@@ -14,7 +14,7 @@ const Offers = () => {
       <h2 className="text-2xl font-bold">Current Offers</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {offersData.map((offer) => (
-          <div key={offer.id} className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-4 cursor-pointer hover:bg-opacity-90 hover:text-white">
+          <div key={offer.id} className="bg-gray-300 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-4 cursor-pointer hover:bg-opacity-90 hover:text-white">
             <h3 className="text-xl font-bold text-gray-600">{offer.title}</h3>
             <p>{offer.description}</p>
             <a href={offer.link} className="text-blue-500 underline">Learn More</a>
