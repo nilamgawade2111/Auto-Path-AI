@@ -18,6 +18,7 @@ const Offers = () => {
           <div key={offer.id} className="bg-gray-200 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-4 cursor-pointer hover:bg-opacity-90 hover:text-white">
             <h3 className="text-xl font-bold text-gray-600">{offer.title}</h3>
             <p>{offer.description}</p>
+            <p className="text-sm text-gray-500">Make: 2026</p>
             <Link to={offer.link} className="text-blue-500 underline">Learn More</Link>
           </div>
         ))}
