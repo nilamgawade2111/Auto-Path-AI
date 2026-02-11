@@ -1,15 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="navbar">
-      <Link to="/" className="nav-link">Home</Link>
-      <Link to="/test" className="nav-link">Test Page</Link>
-      <Link to="/about" className="nav-link">About Us</Link>
-      <Link to="/services" className="nav-link">Services</Link>
-      <Link to="/contact" className="nav-link">Contact</Link>
-      <Link to="/new" className="nav-link">New Page</Link>
+    <header className="bg-blue-500 p-4 text-white text-center">
+      <h1 className="text-3xl font-bold">Welcome to Coding Agent</h1>
     </header>
   );
 };
